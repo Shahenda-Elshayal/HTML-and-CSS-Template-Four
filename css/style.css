@@ -224,12 +224,21 @@ h1::after {
     margin: 0 20px 20px;
 }
 
+
+.wrapper-3 {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: 0 20px 20px;
+}
+
 @media (max-width:767px) {
-    .wrapper {
+
+    .wrapper,
+    .wrapper-3 {
         grid-template-columns: minmax(200px, 1fr);
         margin: 0 10px 10px;
         gap: 10px;
     }
+
 }
 
 /* start Dashboard */
@@ -908,17 +917,42 @@ input[type="email"] {
     font-weight: 600;
     font-size: 14px;
 }
-@media (max-width:767px){
-    .profile .card .load{
+
+@media (max-width:767px) {
+    .profile .card .load {
         flex-direction: column;
         gap: 10px;
     }
-    .profile .card .load >div{
+
+    .profile .card .load>div {
         width: 250px;
     }
 }
 
 /* end project */
+
+/* start course */
+.course .card img:first-child{
+    width: 64px;
+    border-radius: 50%;
+    border: 2px solid white;
+    left: 16px;
+    top: 16px;
+}
+.course .card .main-img {
+    max-width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.course .card .text span {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    cursor: pointer;
+}
+
+/* end course */
 
 /* start animation */
 @keyframes change-bg-li {
