@@ -932,13 +932,14 @@ input[type="email"] {
 /* end project */
 
 /* start course */
-.course .card img:first-child{
+.course .card img:first-child {
     width: 64px;
     border-radius: 50%;
     border: 2px solid white;
     left: 16px;
     top: 16px;
 }
+
 .course .card .main-img {
     max-width: 100%;
     border-top-left-radius: 6px;
@@ -953,6 +954,68 @@ input[type="email"] {
 }
 
 /* end course */
+
+/* start friend  */
+.friend .card .info .contac {
+    left: 10px;
+    top: 10px;
+}
+
+.friend .card .info .contac i {
+    background-color: #eee;
+    color: #666;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.friend .card .info .contac i:hover {
+    background-color: var(--blue-color);
+    color: white;
+}
+
+.friend .card .info::before {
+    content: '';
+    position: absolute;
+    background-color: #eee;
+    width: 85%;
+    height: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2px;
+}
+
+.friend .card .info {
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.friend .card .info img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.friend .card .icons::before {
+    content: '';
+    position: absolute;
+    background-color: #eee;
+    width: 85%;
+    height: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2px;
+}
+
+.friend .card .icons .vip{
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 42px;
+    color: rgb(255 165 0 / 20%);
+    font-weight: 600;
+    letter-spacing: -2.5px;
+}
+
+/* end friend  */
 
 /* start animation */
 @keyframes change-bg-li {
