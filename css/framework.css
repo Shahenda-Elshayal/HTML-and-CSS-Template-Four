@@ -103,6 +103,9 @@
 .p-5 {
     padding: 5px;
 }
+.pb-5 {
+    padding-bottom: 5px;
+}
 
 .pt-7 {
     padding-top: 7px;
@@ -118,9 +121,18 @@
 .pt-10 {
     padding-top: 10px;
 }
+.pr-10 {
+    padding-right: 10px;
+}
 
 .pb-10 {
     padding-bottom: 10px;
+}
+.p-12 {
+    padding: 12px;
+}
+.pb-12 {
+    padding-bottom: 12px;
 }
 
 .p-15 {
@@ -129,6 +141,9 @@
 
 .pt-15 {
     padding-top: 15px;
+}
+.pr-15 {
+    padding-right: 15px;
 }
 
 .pb-15 {
