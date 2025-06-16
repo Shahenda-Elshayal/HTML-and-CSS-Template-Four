@@ -1,9 +1,8 @@
+[View Live Demo](https://shahenda-elshayal.github.io/HTML-and-CSS-Template-Four/)
+
 # HTML-and-CSS-Template-Four
 
 A modern and responsive HTML and CSS template designed for personal and business websites. This template features a clean layout and is easy to customize.
-
-## Live Demo
-[View Live Demo](https://shahenda-elshayal.github.io/HTML-and-CSS-Template-Four/)
 
 ## Features
 
